@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+.box p {
+  color: red;
+}
+
+ul > li {
+  border-top: 5px solid red;
+}
+
+h1 + p {
+  font-weight: bold;
+  background-color: #333333;
+  color: white;
+  padding: 0.5em;
+}
+
+h1 + h2 {
+  font-weight: bold;
+  background-color: #333333;
+  color: white;
+  padding: 0.5em;
+}
+
+h1 ~ p {
+  font-weight: bold;
+  background-color: #333333;
+  color: white;
+  padding: 0.5.em;
+}
