@@ -1,0 +1,38 @@
+.play-container {
+  border: 5px solid blue;
+  margin: 40px;
+}
+
+.play-box {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 10px;
+  height: 100px;
+  /* try changing the margin properties: */
+  margin-top: -40px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  margin-left: 4em;
+}
+
+.container {
+  border: 5px solid blue; 
+  margin: 40px;
+}
+
+p {
+  border: 5px solid rebeccapurple;
+  background-color: lightgrey;
+  padding: 10px;
+}
+
+.one {
+  margin-bottom: 50px;
+}
+
+.two {
+  margin-top: 30px;
+}
+
+
+
