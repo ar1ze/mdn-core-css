@@ -1,0 +1,70 @@
+.box {
+  padding: 10px;
+  margin: 0.5em 0;
+  border-radius: 0.5em;
+}
+
+/* Keyword colors  */
+.keyword-one {
+  background-color: antiquewhite;
+}
+
+.keyword-two {
+  background-color: blueviolet;
+}
+
+.keyword-three {
+  background-color: greenyellow;
+}
+
+/* Hexadecimal colors */
+.hexa-one {
+  background-color: #02798b;
+}
+
+.hexa-two {
+  background-color: #c55da1;
+}
+
+.hexa-three {
+  background-color: #128a7d;
+}
+
+/* RGB Colors */
+.rgb-one {
+  background-color: rgb(2 121 139);
+}
+
+.rgb-two {
+  background-color: rgb(197 93 161);
+}
+
+.rgb-three {
+  background-color: rgb(18 138 125);
+}
+
+/* RGB with opacity */
+.rgba-one {
+  background-color: rgb(2 121 139 / 0.3);
+}
+
+.rgba-two {
+  background-color: rgb(197 93 161 / 0.7);
+}
+
+.rgba-three {
+  background-color: rgb(18 138 125 / 0.9);
+}
+
+/* HSL Color */
+.hsl-one {
+  background-color: hsl(188, 97, 28);
+}
+
+.hsl-two {
+  background-color: hsl(321 47% 57%);
+}
+
+.hsl-three {
+  background-color: hsl(174 77% 31%);
+}
