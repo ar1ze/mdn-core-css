@@ -1,0 +1,76 @@
+/* Natural sizing */
+img {
+  border: 5px solid darkblue;
+}
+
+.emtpy-box  {
+  border: 5px solid darkblue;
+}
+
+/* Specific size */
+body {
+  font: 1.2em sans-serif;
+}
+.specific-wrapper {
+  display: flex;
+}
+
+.specific-wrapper > * {
+  margin: 20px;
+}
+
+.specific-box {
+  border: 5px solid darkblue;
+  height: 100px;
+  width: 200px;
+}
+
+/* Margin padding sizing */
+.percentage-box {
+  border: 5px solid darkblue;
+  width: 50%;
+}
+
+.mp-box {
+  border: 5px solid darkblue;
+  width: 200px;
+  margin: 10%;
+  padding: 10%;
+}
+
+/* Min max  */
+.mm-wrapper {
+  display: flex;
+}
+
+.mm-wrapper > * {
+  margin: 20px;
+}
+
+.mm-box {
+  border: 5px solid darkblue;
+  width: 200px;
+  min-height: 100px;
+}
+
+/* Min max image */
+.mmi-box {
+  width: 200px;
+}
+.mini-box {
+  width: 30px;
+}
+.width {
+  width: 100%;
+}
+.max {
+  max-width: 100%;
+}
+
+/* Viewport units */
+.vp-box {
+  border: 5px solid darkblue;
+  width: 20vw;
+  height: 20vh;
+  font-size: 10vh;
+}

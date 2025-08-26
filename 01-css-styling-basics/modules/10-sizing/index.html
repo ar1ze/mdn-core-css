@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Specific size</title>
+</head>
+
+<body>
+  <h2>The natural or intrinsic size of things</h2>
+  <img alt="star" src="https://mdn.github.io/shared-assets/images/examples/big-star.png" />
+
+  <h2>Empty element</h2>
+  <div class="empty-box"></div>
+
+  <h2>Setting a specific size</h2>
+  <div class="specific-wrapper">
+    <div class="specific-box"></div>
+    <div class="specific-box">
+      These boxes both have a height set, this box has content in it which will
+      need more space than the assigned height, and so we get overflow.
+    </div>
+  </div>
+
+  <h2>Using Percentages</h2>
+  <div class="percentage-container">
+    <div class="percentage-box">I have a percentage width.</div>
+  </div>
+
+  <h2>Percentage margins and padding</h2>
+  <div class="mp-box">I have margin and padding set to 10% on all sides.</div>
+
+  <h2>Min and max sizes</h2>
+  <div class="mm-wrapper">
+    <div class="mm-box"></div>
+    <div class="mm-box">
+      These boxes both have a min-height set, this box has content in it which
+      will need more space than the assigned height, and so it grows from the
+      minimum.
+    </div>
+  </div>
+
+  <h2>Max and min on images</h2>
+  <div class="mmi-wrapper">
+    <div class="mmi-box">
+      <img alt="star" class="width" src="https://mdn.github.io/shared-assets/images/examples/big-star.png" />
+    </div>
+    <div class="mmi-box">
+      <img alt="star" class="max" src="https://mdn.github.io/shared-assets/images/examples/big-star.png" />
+    </div>
+    <div class="mini-box">
+      <img alt="star" class="max" src="https://mdn.github.io/shared-assets/images/examples/big-star.png" />
+    </div>
+  </div>
+
+  <h2>Viewport units</h2>
+  <div class="vp-box">A</div>
+</body>
+
+</html>
