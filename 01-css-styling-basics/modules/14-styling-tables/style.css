@@ -1,0 +1,63 @@
+/* Updating font */
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Spacing */
+table {
+  table-layout: fixed;
+  width: 80%;
+  min-width: 1000px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th, 
+td {
+  padding: 0.6em;
+}
+
+/* Alignment */
+tr :nth-child(2),
+tr :nth-child(3) {
+  text-align: right;
+  width: 15%;
+}
+
+tr :nth-child(1),
+tr :nth-child(4) {
+  text-align: left;
+  width: 35%;
+}
+
+tfoot tr :nth-child(1) {
+  text-align: right;
+}
+
+tfoot tr :nth-child(2) {
+  text-align: left;
+}
+
+/* Adding borders */
+tfoot {
+  border-top: 1px solid #999999;
+}
+
+table {
+  border-top: 1px  solid #999999;
+  border-bottom: 1px solid #999999;
+}
+
+/* Zebra stripping */
+tbody tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+/* Syling the caption */
+caption {
+  padding: 1em;
+  font-style: italic;
+  caption-side: bottom;
+  letter-spacing: 1px;
+}
+
