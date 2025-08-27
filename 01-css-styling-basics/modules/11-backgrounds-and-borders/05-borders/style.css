@@ -1,0 +1,18 @@
+* {
+  padding: 0.2em;
+}
+
+.box {
+  width: 500px;
+  background-color: #567895;
+  border: 5px solid #0b385f;
+  border-bottom-style: dashed;
+  color: white;
+  border-radius: 1em;
+  border-top-right-radius: 10% 30%;
+}
+
+h2 {
+  border-top: 2px dashed rebeccapurple;
+  border-bottom: 1em double rgb(24, 163, 78);
+}

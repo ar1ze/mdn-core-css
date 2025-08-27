@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+}
+
+.box {
+  width: 200px;
+  height: 80px;
+  border: 1px solid #cccccc;
+  padding: 0.5em;
+  margin: 20px;
+}
+
+/* Background image */
+.a {
+  background-image: url("https://mdn.github.io/shared-assets/images/examples/balloons.jpg");
+}
+
+.b {
+  background-image: url("https://mdn.github.io/shared-assets/images/examples/star.png");
+}
+
+/* Background image repeat*/
+.br-img {
+  background-image: url("https://mdn.github.io/shared-assets/images/examples/star.png");
+  background-repeat: no-repeat;
+}
+
+/* Background position */
+.brs-img {
+  background-image: url("https://mdn.github.io/shared-assets/images/examples/balloons.jpg");
+  background-repeat: no-repeat;
+  background-size: 80px 10em;
+  background-position: top center;
+}
