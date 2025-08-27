@@ -1,0 +1,43 @@
+/* Overflow images  */
+.overflow-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.overflow-wrapper > * {
+  margin: 20px;
+}
+
+.overflow-box {
+  border: 5px solid darkblue;
+  width: 200px;
+}
+
+/* Sized images */
+.sizing-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.sizing-wrapper > * {
+  margin: 20px;
+}
+
+.sizing-box {
+  border: 5px solid darkblue;
+  width: 200px;
+  height: 200px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.sizing-cover {
+  object-fit: cover;
+}
+
+.sizing-contain {
+  object-fit: contain;
+}
