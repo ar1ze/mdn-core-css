@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+}
+
+.container > div {
+  background-color: rgb(207, 232, 220);
+  padding: 10px;
+  border: 2px solid rgb(79, 185, 227);
+  border-radius: 5px;
+}
+
+/* Display grid */
+.container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+
+/* Flexible grids with th fr unit */
+.container {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Gaps between tracks */
+.container {
+  gap: 20px;;
+}
+
+/* Repeating track listings */
+.container {
+  grid-template-columns: repeat(3, 2fr);
+}
+
+/* Implicit and explicit grids  */
+.container {
+  grid-auto-rows: 100px;
+}
+
+/* The minmax() function */
+.container {
+  grid-auto-rows: minmax(50px, auto);
+}
+
+/* As many columns as will fit */
+.container {
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-auto-rows: minmax(50px, auto);
+}

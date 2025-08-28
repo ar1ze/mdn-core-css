@@ -1,0 +1,40 @@
+.container {
+  font-family: sans-serif;
+  display: grid;
+  grid-template-areas: 
+    "header header"
+    "siderbar content"
+    "footer footer"
+  ;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+
+header,
+footer {
+  background-color: rebeccapurple;
+  border-radius: 5px;
+  padding: 10px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+header {
+  grid-area: header;
+}
+
+aside {
+  border-right: 1px solid rebeccapurple;
+}
+
+footer {
+  grid-area: footer;
+}
+
+main {
+  grid-area: content;
+  display: grid;
+  grid-template-rows: 4fr 3fr 3fr;
+  gap: inherit;
+}
+
