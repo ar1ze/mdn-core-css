@@ -1,0 +1,32 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+
+ul {
+  max-width: 700px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #4d7292;
+  border: 2px solid #77a6b6;
+  border-radius: 0.5em;
+  color: white;;
+  padding: 0.5em;
+}
+
+/* Basic task */
+ul {
+  display: flex;
+}
+
+li {
+  flex: 1;
+}
+
+/* Bonus first item twice the size */
+li:first-child {
+  flex: 2;
+}
