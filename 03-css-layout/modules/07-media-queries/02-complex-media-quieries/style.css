@@ -1,0 +1,20 @@
+/* And logic */
+@media screen and (widht >= 600px) and (orientation: landscape) {
+  body {
+    color: blue;
+  } 
+}
+
+/* Or logic */
+@media screen and (width >= 600px), screen and (orientation: landscape){
+  body {
+    color: blue;
+  } 
+}
+
+/* Not logic */
+@media (not (width < 600px)) and (not (width > 1000px)) {
+  body {
+    color: blue;
+  }
+}

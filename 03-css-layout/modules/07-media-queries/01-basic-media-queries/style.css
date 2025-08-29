@@ -1,0 +1,28 @@
+/* Width and height */
+@media screen and (max-width: 600px){
+  body {
+    color: blue;
+  }
+}
+
+/* Orientation */
+@media (orientation: landscape) {
+  body {
+    color: rebeccapurple;
+  }
+}
+
+/* Use of pointing devices */
+@media screen and (hover: hover) {
+  body:hover {
+    color: white;
+    background: black;
+  }
+}
+
+/* Ranged syntax */
+@media (min-width: 30em) and (max-width: 50em) {
+  body {
+    color: green;
+  }
+}
